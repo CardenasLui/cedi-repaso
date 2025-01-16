@@ -1,0 +1,7 @@
+{
+  "name": "cedi-repaso",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
