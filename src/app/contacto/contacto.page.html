@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>contacto</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">contacto</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-item>
+    <ion-input [formControl]="nombre" label="Default input"></ion-input>
+  </ion-item>
+  <ion-button (click)="funcionHola()">
+    Default
+  </ion-button>
+  <p class="ion-padding">
+    nombre agrgado{{nombre.value}}</p>
+</ion-content>
